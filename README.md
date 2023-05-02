@@ -11,4 +11,8 @@ Este é um clone simples da página da Space X e foi feita utilizando somente HT
   <li>HTML5</li>
   <li>CSS3</li>
   <li>JavaScript</li>
-</ul>
+</ul><hr>
+
+<h2>Criador</h2>
+<h4>Guilherme Oliveira</h4>
+<a href="https://www.linkedin.com/in/guiolv7"</a>
