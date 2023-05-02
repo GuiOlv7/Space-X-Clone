@@ -21,27 +21,27 @@ body {
 }
 
 #section1 {
-    background-image: url(./assets/homepage_starship_flight_test.jpg);
+    background-image: url(./assets/images/homepage_starship_flight_test.jpg);
     background-size: cover;
 }
 
 #section2 {
-    background-image: url(./assets/homepageCRS_27_returns_to_earth.png);
+    background-image: url(./assets/images/homepageCRS_27_returns_to_earth.png);
     background-size: cover;
 }
 
 #section3 {
-    background-image: url(./assets/homepage_transporter_7_mission.jpg);
+    background-image: url(./assets/images/homepage_transporter_7_mission.jpg);
     background-size: cover;
 }
 
 #section4 {
-    background-image: url(./assets/intelsat_is_40E_mission.jpg);
+    background-image: url(./assets/images/intelsat_is_40E_mission.jpg);
     background-size: cover;
 }
 
 #section5 {
-    background-image: url(./assets/starship_to_support.jpg);
+    background-image: url(./assets/images/starship_to_support.jpg);
     background-size: cover;
 }
 
