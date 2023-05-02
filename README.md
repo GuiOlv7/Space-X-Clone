@@ -1,6 +1,6 @@
-**SPACEX CLONE
+**<h1>SPACEX CLONE</h1>
 
-*** Sobre o Projeto
+***Sobre o Projeto
 
 <a href="https://guiolv7-spacexclone.netlify.app/">https://guiolv7-spacexclone.netlify.app/</a><br>
 
