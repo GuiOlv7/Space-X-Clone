@@ -6,7 +6,7 @@
 
 Este é um clone simples da página da Space X e foi feita utilizando somente HTML, CSS e JavaScript.<hr>
 
-<h2>Tecnologias usadas:</h2><br>
+<h2>Tecnologias usadas:</h2>
 <ul>
   <li>HTML5</li>
   <li>CSS3</li>
