@@ -1,3 +1,6 @@
+<iconify-icon icon="ri:javascript-fill"></iconify-icon>
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
 <h1>SPACEX CLONE</h1>
 
 <h2>Sobre o Projeto</h2>
