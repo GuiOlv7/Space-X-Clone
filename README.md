@@ -7,4 +7,8 @@
 Este é um clone simples da página da Space X e foi feita utilizando somente HTML, CSS e JavaScript.<hr>
 
 <h2>Tecnologias usadas:</h2><br>
-<img href="https://cdn0.iconfinder.com/data/icons/HTML5/512/HTML_Color_Black.png" width="25">
+<ul>
+  <li>HTML5</li>
+  <li>CSS3</li>
+  <li>JavaScript</li>
+</ul>
