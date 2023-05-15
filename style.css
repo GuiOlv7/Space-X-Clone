@@ -21,27 +21,27 @@ body {
 }
 
 #section1 {
-    background-image: url(/images/homepage_starship_flight_test.jpg);
+    background-image: url(/images/assets/homepage_starship_flight_test.jpg);
     background-size: cover;
 }
 
 #section2 {
-    background-image: url(/images/homepageCRS_27_returns_to_earth.png);
+    background-image: url(/images/assets/homepageCRS_27_returns_to_earth.png);
     background-size: cover;
 }
 
 #section3 {
-    background-image: url(/images/homepage_transporter_7_mission.jpg);
+    background-image: url(/images/assets/homepage_transporter_7_mission.jpg);
     background-size: cover;
 }
 
 #section4 {
-    background-image: url(/images/intelsat_is_40E_mission.jpg);
+    background-image: url(/images/assets/intelsat_is_40E_mission.jpg);
     background-size: cover;
 }
 
 #section5 {
-    background-image: url(/images/starship_to_support.jpg);
+    background-image: url(/images/assets/starship_to_support.jpg);
     background-size: cover;
 }
 
@@ -53,10 +53,10 @@ body {
 .nav-bar {
     display: flex;
     position: fixed;
+    width: 100%;
     transition: all 300ms ease-in-out;
     cursor: default;
     animation: opacity 700ms;
-
 }
 
 .nav-bar a {
@@ -104,7 +104,9 @@ body {
 
 .hide-nav {
     display: none;
+    animation: opacity reverse 700ms;
 }
+
 
 .main-text {
     margin-top: 18rem;
@@ -218,6 +220,7 @@ body {
     background: #000;
     opacity: 0.5;
     z-index: 1;
+    animation: opacity 200ms ease;
 }
 
 .menu-div {
@@ -278,5 +281,141 @@ body {
 @keyframes opacity {
     0%{
         opacity: 0;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1230px) {
+    .nav-bar {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .brand-name {
+        margin-left: 0;
+    }
+
+    .brand-name img {
+        width: 120px;
+        height: 25px;
+    }
+
+    .nav-links {
+        margin-left: 0;
+    }
+
+    .nav-links a {
+        font-size: 12px;
+        margin: auto .3rem;
+    }
+
+    .menu-bars {
+        margin-left: 1rem;
+    }
+}
+
+@media (min-width: 851px) and (max-width: 1024px) {
+    .nav-bar {
+        justify-content: center;
+    }
+
+    .menu-bars {
+        position: absolute;
+        right: 2rem;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .main-footer-div {
+        display: flex;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 850px) {
+    
+    .nav-bar {
+        justify-content: center;
+    }
+
+    .menu-bars {
+        position: absolute;
+        right: 2rem;
+    }
+
+    .nav-links {
+        display: none;
+    }
+    
+    .main-text h3 {
+        font-size: 15px;
+    }
+
+    .main-text h2 {
+        font-size: 30px;
+    }
+    
+    #section1, #section2, #section3, #section4 {
+        background-position: -250px 0;
+    }
+
+    #section5 {
+        background-position: -350px 0;
+    }
+
+    .main-footer-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-footer-div span {
+        margin-bottom: 1rem;
+    }
+
+    #footer-links {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer a {
+        margin-left: 1.2rem;
+        line-height: 1.2rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .nav-bar {
+        justify-content: center;
+    }
+
+    .menu-bars {
+        position: absolute;
+        right: 2rem;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .main-text h3 {
+        font-size: 13px;
+    }
+
+    .main-text h2 {
+        font-size: 26px;
+    }
+
+    #section1, #section3, #section4 {
+        background-position: -300px 0;
+    }
+
+    #section2, #section5 {
+        background-position: -450px 0;
+    }
+
+    .button {
+        padding: .8rem 2.25rem;
     }
 }
