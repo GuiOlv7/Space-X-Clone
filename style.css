@@ -418,4 +418,25 @@ body {
     .button {
         padding: .8rem 2.25rem;
     }
+    
+    .main-footer-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-footer-div span {
+        margin-bottom: 1rem;
+    }
+
+    #footer-links {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer a {
+        margin-left: 1.2rem;
+        line-height: 1.2rem;
+    }
 }
