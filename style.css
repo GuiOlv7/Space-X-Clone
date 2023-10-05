@@ -356,11 +356,11 @@ body {
     }
     
     #section1, #section2, #section3, #section4 {
-        background-position: -250px 0;
+        background-position-x: center;
     }
 
     #section5 {
-        background-position: -350px 0;
+        background-position-x: center;
     }
 
     footer {
@@ -409,11 +409,11 @@ body {
     }
 
     #section1, #section3, #section4 {
-        background-position: -300px 0;
+        background-position-x: center;
     }
 
     #section2, #section5 {
-        background-position: -450px 0;
+        background-position-x: center;
     }
 
     .button {
